@@ -36,8 +36,8 @@
 ### ._.) HTML 태그를 사용해보자
 
 <p align=center>
-<img src="img/스크린샷 2022-04-17 12.00.40.png">
-<img src="img/스크린샷 2022-04-17 12.00.14.png" width=300px height=300px> 
+<img src="../img/스크린샷 2022-04-17 12.00.40.png">
+<img src="../img/스크린샷 2022-04-17 12.00.14.png" width=300px height=300px> 
 </p>
 
 
