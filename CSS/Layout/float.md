@@ -22,7 +22,7 @@
 <br/><br/>
 
   ## ._.) float을 한 번 써보자
-  > #### float 적용 전
+  > #### < float 적용 전 >
 
   ```
     <img width="200px" height="200px" src="tagi.jpg" />
@@ -30,18 +30,20 @@
   ```
 
   <p align="center">
-    <img src="../img/before float.png">
+    <img src="../../img/before float.png">
   </p>
+<br/>
 
-  > #### float 적용 후
+  > #### < float 적용 후 >
   ```
     <img style="float:left" width="200px" height="200px" src="tagi.jpeg" />
     <div style="font-size: 35px;">우리 집 둘째 고앵이 탁이애오. 너무 보고싶어오. 첫째 고앵이 길이도 참 귀여워오. 요즘 탁이가 살이 디룩디룩 쪘다고 집에서 연락이 와서 걱정이네어 float:left 왼쪽 속성 테스트 중이에여. 우리 귀여운 탁이 사진이 왼쪽으로 이동해있고 글이 오른쪽으로 오는것을 알 수 있어여. 말을 길게 써야 글이 물 흐르듯이 써지는게 보일텐데 말이에여 </div>
   ```
 
   <p align="center">
-    <img src="../img/after-float.png">
+    <img src="../../img/after-float.png">
   </p>
+<br/><br/>
 
 ## 🖥 clear 속성과 속성값(value)
 #### clear는 float을 해제하기 위한 속성이다
@@ -56,9 +58,29 @@
 
 * `inherit`: 부모의 속성을 상속 받는다
 
+  <p align="center">
+    <img src="../../img/clear.png">
+  </p>
 <br/><br/>
-> ### 주의사항!
-> __float 속성을 사용할 요소는 position 속성의 absolute 값과 양립할 수 없어.__
+
+## ._.) 이미지가 박스보다 크면 어떡하지?
+  아래처럼 이미지의 크기가 너무 커서, 이미지를 담고 있는 요소의 영역을 벗어나는 경우가 있다.
+  <p align="center">
+    <img src="../../img/before-clearfix.png">
+  </p>
+  <br/>
+  이런 문제를 해결하기 위해 있는게 clearfix 핵이다.
+<br/><br/>
+
+## 🖥 clearfix 핵 사용법
+아주 간단하다. 아래의 css 코드 한 줄만 추가하면 된다.
+```
+overflow: auto;
+```
+
+<br/><br/>
+> ### 주의사항
+> __float 속성을 사용할 요소는 position 속성의 absolute 값과 양립할 수 없다__
 
 
 
