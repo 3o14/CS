@@ -73,17 +73,26 @@
 <br/><br/>
 
 ## 🖥 clearfix 핵 사용법
-아주 간단하다. 아래의 css 코드 한 줄만 추가하면 된다.
+아주 간단하다. 부모 요소에 `overflow: auto;` css 코드 한 줄만 추가하면 된다.
+
 ```
-overflow: auto;
+.tagi {
+    overflow: auto;
+}
+
+<div class="tagi" style="border: 3px solid;">
+    <img style="float:left" width="200px" height="200px" src="tagi.jpeg" />
+    overflow 속성을 이용해 박스 크기 자동으로 조절하기
+</div> 
 ```
 
+<p align="center">
+  <img src="../../img/after-clearfix.png">
+</p>
 <br/><br/>
+
 > ### 주의사항
 > __float 속성을 사용할 요소는 position 속성의 absolute 값과 양립할 수 없다__
-
-
-
 
 <br/><br/><br/>
 
@@ -91,4 +100,4 @@ overflow: auto;
 ## 참고
 * [내일의 나는 오늘의 내가 만든다. - CSS float란?](https://velog.io/@shin6403/CSS-float%EB%9E%80)
 * [guitarlove00.log - [TIL]position, display, float 속성 정리](https://velog.io/@guitarlove00/position-display-float-%EC%86%8D%EC%84%B1-%EC%A0%95%EB%A6%AC)
-* []()
+* [초보개발자의 성장블로그 - CSS29 float속성, clear속성, overflow속성](https://hs0955.tistory.com/276)
