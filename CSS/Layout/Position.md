@@ -154,4 +154,5 @@ div:nth-of-type(2) {
 
 ***
 ## 참고
-* []()
+* [DaleSeo - CSS의 position 속성으로 요소 배치하기](https://www.daleseo.com/css-position/)
+  
