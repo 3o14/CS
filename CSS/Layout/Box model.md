@@ -8,7 +8,7 @@
 
 * 그리고 모든 Box 3개의 층으로 이루어져있다.
 
-* margin, border, padding 그리고 content
+* `margin`, `border`, `padding` 그리고 `content`
 
 <p align="center">
 <img src="../../img/BoxModel.png">
@@ -36,8 +36,11 @@
   </p>
 <br><br>
 
-## 🖥 box-sizing
+## 🖥 Box-Sizing
 ### 1. content-box
+```
+box-sizing: content-box
+```
 * `box-sizing` 속성의 기본값
 
 * `width` 속성값이 순수하게 `content` 영역의 너비만을 포함
@@ -45,7 +48,10 @@
 * `margin`값과 `border`, `padding` 값은 `width`에 포함되지 않는다.
 
 ### 2. border-box
-* width 속성값은 content 영역뿐만 아니라 padding과 border까지 포함시키게 된다.
+```
+box-sizing: border-box
+```
+* `width` 속성값은 `content` 영역뿐만 아니라 `padding`과 `border`까지 포함시키게 된다.
 <br/><br/><br/>
 
 ***
