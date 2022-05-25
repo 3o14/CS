@@ -24,10 +24,18 @@
 
 ## 🖥 Grid 레이아웃의 주요 CSS 속성
 Grid 레이아웃은 `container`와 `item`에 부여할 수 있는 속성이 구분되어 있다.
-* __`container`__ : grid-template-columns, grid-template-rows, grid-template-areas, grid-gap 등
-* __`item`__ : gird-column, grid-row, grid-area 등
+* __container__
+    * `grid-template-columns`
+    * `grid-template-rows`
+    * `grid-template-areas`
+    * `grid-gap`
+* __item__
+    * `gird-column`
+    * `grid-row`
+    * `grid-area`
 <br/>
 
+## ⌨️ Container 속성
 ### grid-template-columns
 ```
 grid-template-columns: none | <track-list> | <auto-track-list>
@@ -120,7 +128,9 @@ grid-gap: <row-gap> <column-gap>?
 <p align="center">
 <img src="../../img/grid-gap.png">
 </p>
-<br/>
+<br/><br/>
+
+## ⌨️ Item 속성 네가지
 
 ### grid-column
 ```
@@ -164,9 +174,65 @@ grid-area: <grid-line> [/ <grid-line>] ? [/ <grid-line>] ? [/ <grid-line>] ? | <
 <p align="center">
 <img src="../../img/grid-area.png">
 </p>
-<br/>
+<br/><br/>
 
-ㅇ
+## ._.)이제 그리드를 연습해보자
+### 전체 페이지 레이아웃 구성하기
+```
+.grid-container {
+  display: grid;
+  grid-template-areas:  'header header'
+                        'aside content'
+                        'footer footer';
+  grid-template-rows: 60px 1fr 50px;
+  grid-template-columns: 150px 1fr;
+  height: 250px;
+  background-color: #ccc;
+}
+
+.grid-item {
+  padding: 10px;
+}
+
+.header {
+  grid-area: header;
+  color: white;
+  background-color: green;
+}
+
+.aside {
+  grid-area: aside;
+  background-color: yellow;
+}
+
+.content {
+  grid-area: content;
+  background-color: pink;
+}
+
+.footer {
+  grid-area: footer;
+  color: white;
+  background-color: #555;
+}
+```
+
+<p align="center">
+<img src="../../img/exam.png">
+</p>
+<br/><br/>
+
+## 🖥 auto-fit, minmax를 이용한 반응형 레이아웃
+### grid-template-columns에 auto-fix, minmax를 이용해 가변적으로 크기가 변하는 레이아웃을 구현할 수 있다.
+
+* `minmax`
+   * grid item의 최소/최대 사이즈를 설정할 수 있다.
+   * 예를 들어 minmax(300px, 1fr)일 경우 해당 grid item의 크는 최소 300px로 설정되며,
+   * 브라우저의 크기가 커지면 브라우저 크기 / 그리드 아이템 개수로 늘어나게 된다.
+* `auto-fit`
+   * 앞서 살펴보았던 grid-template-columns, grid-template-rows는 행 또는 열의 개수를 고정시켜놓았지만 auto-fit을 이용하면 가변적으로 그 개수를 조정할 수 있다.
+   * minmax에 의해 그리드 아이템의 크기가 가변일 경우 해당 grid container가 수용 가능한 개수만큼 행 또는 열의 개수를 자동으로 조정한다.
+   * 이와 비슷한 속성으로 auto-fill이 있다.
 <br/><br/><br/>
 
 ***
@@ -174,7 +240,3 @@ grid-area: <grid-line> [/ <grid-line>] ? [/ <grid-line>] ? [/ <grid-line>] ? | <
 * [armadillo's blog - [CSS] Grid layout 이해하기](https://armadillo-dev.github.io/css/understanding-grid-layout/#grid-template-columns)
 * [1분코딩 - 이번에야말로 CSS Grid를 익혀보자](https://studiomeal.com/archives/533)
 * [nana_log - [CSS] CSS Grid (그리드) 배우기](https://nykim.work/59)
-
-
-
-
