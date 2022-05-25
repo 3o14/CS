@@ -176,7 +176,7 @@ grid-area: <grid-line> [/ <grid-line>] ? [/ <grid-line>] ? [/ <grid-line>] ? | <
 </p>
 <br/><br/>
 
-## ._.)이제 그리드를 연습해보자
+## ._.) 이제 그리드를 연습해보자
 ### 전체 페이지 레이아웃 구성하기
 ```
 .grid-container {
