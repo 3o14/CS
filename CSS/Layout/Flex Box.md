@@ -13,7 +13,7 @@
 
 ## 🖥 flexbox의 구성
 <p align="center">
-<img src="../../../img/felxBox.png">
+<img src="../../img/flexBox.png">
 </p>
 
 * flexbox는 flex container(부모 요소)와 flex item(자식 요소)로 구성된다.
@@ -33,7 +33,7 @@
 flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 
 <p align="center">
-<img src="../../img/felxBoxAttribute.png">
+<img src="../../img/flexBoxAttribute.png">
 </p>
 
 * flex box는 가로 혹은 세로의 정해둔 방향으로 프로퍼티를 정렬한다.
