@@ -19,13 +19,13 @@
 * inline-flex는 inline-block처럼 동작한다.
 
 <p align="center">
-<img src="../../img/inline-flex.png">
+<img src="../../img/inline-flex.png" width="800px" height="200px">
 </p>
 <br/><br/>
 
 ## 🖥 flexbox의 구성
 <p align="center">
-<img src="../../img/flexBox.png">
+<img src="../../img/flexBox.png" width="600px" height="330px">
 </p>
 
 * flexbox는 flex container(부모 요소)와 flex item(자식 요소)로 구성된다.
@@ -39,7 +39,7 @@
 flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 
 <p align="center">
-<img src="../../img/flexBoxAttribute.png">
+<img src="../../img/flexBoxAttribute.png" width="580" height="350px">
 </p>
 
 * flex box는 가로 혹은 세로의 정해둔 방향으로 프로퍼티를 정렬한다.
@@ -75,7 +75,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 : flex item이 flex container를 벗어났을 때 줄을 바꾸는 속성
 
 <p align="center">
-<img src="../../img/flex-wrap.png">
+<img src="../../img/flex-wrap.png" width="600px" height="500px">
 </p>
 
 * `nowrap(default)`: 모든 itme을 한 줄에 정렬
@@ -114,7 +114,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 : flex-direction으로 정해진 방향을 기준으로 수평으로 item을 정렬하는 방법을 정함
 
 <p align="center">
-<img src="../../img/justify-content.png">
+<img src="../../img/justify-content.png" width="600px" height="1000px">
 </p>
 
 * `flex-start(default)`: item을 왼쪽을 시작점으로 정렬
