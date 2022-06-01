@@ -1,13 +1,26 @@
+# _미완성_
 # ._.) Flex Box에 대해서 알아보자!
 ###  Flexible Box라고도 부르는 Flex Box는 레이아웃 배치를 위해 태어났다.
 <br/>
 
-## 🖥 flexbox의 이점
-* display와 position 만으로 레이아웃 짜기에는 어려움과 한계가 있음
+## 🖥 flexbox의 사용법
+* flexbox는 `display:flex`를 설정하는 것에서부터 시작된다.
 
-* 이런 어려움을 극복하기 위해 flexbox 개념이 도입됨
+```
+.flex_container { 
+  display: flex;
+}
+```
 
-* flexbox를 이용하면 특별한 계산 없이 쉽게 정렬할 수 있고, 레이아웃을 편리하게 구성할 수 있다.
+* `inline-flex`도 있는데, 이건 inline-block이라고 생각하면 된다.
+
+* 컨테이너가 주변 요소들과 어떻게 어우러질지 결정하는 값
+
+* inline-flex는 inline-block처럼 동작한다.
+
+<p align="center">
+<img src="../../img/inline-flex.png">
+</p>
 <br/><br/>
 
 ## 🖥 flexbox의 구성
@@ -17,15 +30,9 @@
 
 * flexbox는 flex container(부모 요소)와 flex item(자식 요소)로 구성된다.
 
-* flexbox 사용법: 부모 요소에 `display:flex` 추가하기.
+* `display:flex`가 추가된 요소가 flex container(부모 요소)가 되고,
 
-*  flex 속성을 추가한 요소가 `flex container`가 되고, 그 자식 요소들이 `flex item`이 된다. 
-
-```
-.flex_container { 
-  display: flex;
-}
-```
+* 그 자식 요소들이 `flex item`이 된다. 
 <br/><br/>
 
 ## 🖥 부모 요소와 자식 요소의 속성
@@ -67,6 +74,10 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 ### flex-wrap
 : flex item이 flex container를 벗어났을 때 줄을 바꾸는 속성
 
+<p align="center">
+<img src="../../img/flex-wrap.png">
+</p>
+
 * `nowrap(default)`: 모든 itme을 한 줄에 정렬
 
 * `wrap`: item이 container를 벗어날 경우 여러 줄에 걸쳐 정렬
@@ -78,6 +89,26 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
   flex-wrap: nowrap | wrap | wrap-reverse; /* default nowrap */
 }
 ```
+
+### flex-flow
+* flex-direction과 flex-wrap을 한꺼번에 지정할 수 있는 단축 속성
+
+* flex-direction, flex-wrap의 순으로 한 칸 띄우고 
+
+```
+.container {
+	flex-flow: row wrap;
+	/* 아래의 두 줄을 줄여 쓴 것 */
+	/* flex-direction: row; */
+	/* flex-wrap: wrap; */
+}
+```
+<br/>
+
+  ### 📍여기서 잠깐, 정렬 속성의 핵심
+  * __`justify`는 메인축 방향으로 정렬__
+  * __`align`은 수직축 방향으로 정렬__
+<br/>
 
 ### justify-content
 : flex-direction으로 정해진 방향을 기준으로 수평으로 item을 정렬하는 방법을 정함
@@ -141,16 +172,19 @@ justify-content와 기능이 유사하다.
 
 ## ⌨️ 자식요소(flex item) 속성
 ### flex-grow
-: flex item의 확장과 관련된 속성, default 0
+* flex item의 확장과 관련된 속성, default 0
 
 <p align="center">
 <img src="../../img/flex-grow.png">
 </p>
 
-해당 flex item이 flex container 내부에서 얼마큼의 공간을 차지해야 하는지 비율을 나타낸다.
-모든 item의 flex-grow 속성이 1로 되어 있다면, container의 공간은 모든 item에 똑같이 분배된다.
-위의 그림의 두 번째 예시와 같이 flex-grow를 지정하면 flex-grow 값이 2인 item이 다른 item보다 공간을 2배 더 차지한다.
-값에는 음수를 사용할 수 없다. 
+* 해당 flex item이 flex container 내부에서 얼마큼의 공간을 차지해야 하는지 비율을 나타낸다.
+
+* 모든 item의 flex-grow 속성이 1로 되어 있다면, container의 공간은 모든 item에 똑같이 분배된다.
+
+* 위의 그림의 두 번째 예시와 같이 flex-grow를 지정하면 flex-grow 값이 2인 item이 다른 item보다 공간을 2배 더 차지한다.
+
+* 속성 값에는 음수를 사용할 수 없다. 
 
 ```
 .item {
@@ -159,10 +193,13 @@ justify-content와 기능이 유사하다.
 ```
  
 ### flex-shrink
-: flex item의 축소와 관련된 속성, default 1
- 
-flex item이 얼마나 공간을 적게 차지하고 싶은지를 나타낼 때 사용한다.
-flex-grow의 반대 개념이라고 볼 수 있습니다. 마찬가지로 음수는 사용할 수 없다.
+* flex item의 축소와 관련된 속성, default 1
+
+* `flex-grow`와 반대 개념이다.
+ 
+* flex item이 얼마나 공간을 적게 차지하고 싶은지를 나타낼 때 사용한다.
+
+* `flex-grow`와 마찬가지로 음수는 사용할 수 없다.
 
 ```
 .item {
@@ -172,22 +209,26 @@ flex-grow의 반대 개념이라고 볼 수 있습니다. 마찬가지로 음수
  
  
 ### flex-basis
-: flex item의 기본 크기를 결정함, defaul auto
- 
-남은 공간이 분배되기 전에 item의 기본 사이즈를 정한다.
-길이(%, rem, px) 또는 키워드(auto, content)로 설정이 가능하다.
+* flex item의 기본 크기를 결정한다.
+ 
+* flex-direction이 row일 때는 너비, column일 때는 높이
 
 ```
 .item {
-  flex-basis:  | auto; /* default auto */
+	flex-basis: auto; /* 기본값 */
+	/* flex-basis: 0; */
+	/* flex-basis: 50%; */
+	/* flex-basis: 300px; */
+	/* flex-basis: 10rem; */
+	/* flex-basis: content; */
 }
 ```
  
  
 ### flex
-: flex-grow, flex-shrink, flex-basis의 축약형
+* flex-grow, flex-shrink, flex-basis의 축약형
  
-flex-grow, flex-shrink, flex-basis를 한 번에 설정할 수 있는 속성이다. 
+* flex-grow, flex-shrink, flex-basis를 한 번에 설정할 수 있는 속성이다. 
 
 ```
 .item {
