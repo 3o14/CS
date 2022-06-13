@@ -38,7 +38,7 @@
 
 ## 🖥 Box-Sizing
 ### 1. content-box
-```
+```css
 box-sizing: content-box
 ```
 * `box-sizing` 속성의 기본값
@@ -48,7 +48,7 @@ box-sizing: content-box
 * `margin`값과 `border`, `padding` 값은 `width`에 포함되지 않는다.
 
 ### 2. border-box
-```
+```css
 box-sizing: border-box
 ```
 * `width` 속성값은 `content` 영역뿐만 아니라 `padding`과 `border`까지 포함시키게 된다.
