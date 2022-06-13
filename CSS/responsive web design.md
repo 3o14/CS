@@ -22,7 +22,7 @@
 
 * 기본적인 미디어 쿼리의 구문은 다음과 같다.
 
-```
+```css
 @media media-type and (media-feature-rule) {
   /* CSS rules go here */
 }
@@ -49,7 +49,7 @@
   
   * speech: 음성 합성 장치
 
-```
+```css
 @media print {
     body {
         font-size: 12pt;
@@ -67,7 +67,7 @@ __1. 너비와 높이__
 
 `min-width`, `max-width`, `width`, `height`, `max-height` 등 미디어 기능을 활용하여 뷰포트가 특정 너비 이상 혹은 이하인 경우 CSS를 적용할 수 있다.
 
-  ```
+  ```css
   @media screen and (width: 600px) {
       body {
           color: red;
@@ -82,7 +82,7 @@ __2. 방향성__
 
 `orientation`으로 세로 모드인지 가로 모드인지를 검사한다.
 
-```
+```css
 @media (orientation: landscape) {
     body {
         color: purple;
@@ -97,7 +97,7 @@ __3. 포인팅 장치의 사용__
 
 요소 위에 마우스가 올려진 상태, `hover` 인지 아닌지 확인할 수 있다.
 
-```
+```css
 @media (hover: hover) {
     body {
         color: yellow;
@@ -113,7 +113,7 @@ __3. 포인팅 장치의 사용__
 
 * `and`를 사용해 미디어 기능을 결합할 수 있다.
 
-```
+```css
 @media screen and (min-width: 400px) and (orientation: landscape) {
     body {
         color: blue;
@@ -130,7 +130,7 @@ __3. 포인팅 장치의 사용__
 
 * 쿼리들은 콤마 `,`로 분리할 수 있다.
 
-```
+```css
 @media screen and (min-width: 400px), screen and (orientation: landscape) {
     body {
         color: blue;
@@ -147,7 +147,7 @@ __3. 포인팅 장치의 사용__
 
 * 이 경우 적용한 미디어쿼리의 전체 의미를 반대로 뒤집는다.
 
-```
+```css
 @media not all and (orientation: landscape) {
     body {
         color: blue;
