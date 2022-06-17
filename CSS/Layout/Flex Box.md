@@ -1,4 +1,3 @@
-# _미완성_
 # ._.) Flex Box에 대해서 알아보자!
 ###  Flexible Box라고도 부르는 Flex Box는 레이아웃 배치를 위해 태어났다.
 <br/>
@@ -6,7 +5,7 @@
 ## 🖥 flexbox의 사용법
 * flexbox는 `display:flex`를 설정하는 것에서부터 시작된다.
 
-```
+```css
 .flex_container { 
   display: flex;
 }
@@ -65,7 +64,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 
 * `column-reverse` : 아래쪽에서 위쪽으로 정렬 ↑
 
-```
+```css
 .container {
   flex-direction: row | row-reverse | column | column-reverse; /* default row */
 }
@@ -84,7 +83,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 
 * `wrap-reverse`: item이 container를 벗어날 경우 여러 줄에 걸쳐 반대로 정렬
 
-```
+```css
 .container {
   flex-wrap: nowrap | wrap | wrap-reverse; /* default nowrap */
 }
@@ -95,7 +94,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 
 * flex-direction, flex-wrap의 순으로 한 칸 띄우고 
 
-```
+```css
 .container {
 	flex-flow: row wrap;
 	/* 아래의 두 줄을 줄여 쓴 것 */
@@ -129,7 +128,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 
 * `space-evenly`: 모든 item 사이에 균등한 공간 분배
 
-```
+```css
 .container {
   justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; /* default flex-start */
 }
@@ -148,7 +147,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 * `stretch(default)`: item을 늘려서 세로 크기에 맞춤
 * `baseline`: baseline(그림 참조)에 맞춰 item 정렬
 
-```
+```css
 .container {
   align-items: stretch | flex-start | flex-end | center | baseline; /* default stretch */
 }
@@ -163,7 +162,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 
 justify-content와 기능이 유사하다.
 
-```
+```css
 .container {
   align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline; /* default stretch */
 }
@@ -186,7 +185,7 @@ justify-content와 기능이 유사하다.
 
 * 속성 값에는 음수를 사용할 수 없다. 
 
-```
+```css
 .item {
   flex-grow: 4; /* default 0 */
 }
@@ -201,7 +200,7 @@ justify-content와 기능이 유사하다.
 
 * `flex-grow`와 마찬가지로 음수는 사용할 수 없다.
 
-```
+```css
 .item {
   flex-shrink: 3; /* default 1 */
 }
@@ -213,7 +212,7 @@ justify-content와 기능이 유사하다.
  
 * flex-direction이 row일 때는 너비, column일 때는 높이
 
-```
+```css
 .item {
 	flex-basis: auto; /* 기본값 */
 	/* flex-basis: 0; */
@@ -230,7 +229,7 @@ justify-content와 기능이 유사하다.
  
 * flex-grow, flex-shrink, flex-basis를 한 번에 설정할 수 있는 속성이다. 
 
-```
+```css
 .item {
   flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
 }
