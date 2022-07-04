@@ -39,7 +39,7 @@
   <script src="https://code.jquery.com/jquery-lastest.js"></script>
   
   <script>
-    $("#ajax_button").click()=>{
+    $("#ajax_button").click(()=>{
       $.ajax(
         {
           type: "GET", // 전송 방식
@@ -79,8 +79,6 @@ router.get('/', (req, res, next) => {
 
 module.exports = router;
 ```
-
-
 <br/><br/><br/>
 
 ***
