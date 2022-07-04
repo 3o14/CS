@@ -81,3 +81,10 @@ module.exports = router;
 ```
 
 
+<br/><br/><br/>
+
+***
+## 참고
+* [MDN web docs - Ajax 시작하기](https://developer.mozilla.org/ko/docs/Web/Guide/AJAX/Getting_Started)
+* [記可為學 - [jQuery] ajax 사용법](https://m.blog.naver.com/sssang97/221640020197)
+* [고똘이의 IT 개발이야기 - [Jquery] 제이쿼리 Ajax 설명 사용법 및 예제(간단)](https://dion-ko.tistory.com/59)
