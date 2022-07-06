@@ -1,5 +1,6 @@
 # ._.) 모듈을 배워보자
-### 뭐라적지
+### 모듈은 단지 파일 하나에 불과하고 스크립트 하나가 모듈 하나이다.
+
 <br/>
 
 ## 🖥 모듈이란?
@@ -9,6 +10,11 @@
 
 이때 분리된 파일 각각을 '모듈'이라고 부르고, 보통 클래스 하나 혹은 특정한 목적을 가진 복수의 함수로 구성된 라이브러리 하나로 구성된다.
 
+모듈에 특수한 지시자 `export`와 `import`를 적용하면 다른 모듈을 불러와 불러온 모듈에 있는 함수를 호출하는 것과 같은 기능 공유가 가능하다.
+
+* `export` - (모듈 내보내기) : 지시자를 변수나 함수 앞에 붙이면 외부 모듈에서 해당 변수나 함수에 접근할 수 있다.
+
+* `import` - (모듈 가져오기) : 지시자를 사용하면 외부 모듈의 기능을 가져올 수 있다.
 <br/>
 
 
@@ -34,6 +40,8 @@
 
 * __UMD:__ AMD와 CommonJS와 같은 다양한 모듈 시스템을 함께 사용하기 위해 등장
 
+<br/>
+
 ### ⌨️ CommonJS
 
 * 다른 모듈을 사용할 때는 `require` 를, 모듈을 해당 스코프 밖으로 보낼 때에는 `module.exports` 를 사용하는 방식
@@ -42,7 +50,7 @@
 
 hello world를 출력하는 함수를 가진 파일을 `usedBy.js` 라고 하고 그 함수를 가져와서 사용하는 파일을 `byUsing.js` 라고 하면 다음과 같이 사용할 수 있다.
 
-#### __`usedBy.js`__
+#### __`🗂 usedBy.js`__
 
 ```js
 const printHelloWorld = () => {
@@ -54,7 +62,9 @@ module.exports = {
 };
 ```
 
-#### __`byUsing.js`__
+<br/>
+
+#### __`🗂 byUsing.js`__
 
 ```js
 const func = require('./a.js'); // 같은 디렉토리에 있다고 가정
@@ -111,7 +121,7 @@ module.exports = { printHelloWorld };
 
 한번 간단한 예시로 사용해보자.
 
-#### __`index.html`__
+#### __`🗂 index.html`__
 
 ```html
 <!DOCTYPE html>
@@ -130,7 +140,7 @@ module.exports = { printHelloWorld };
 
 <br/>
 
-#### __`index.js`__
+#### __`🗂 index.js`__
 
 ```js
 require.config({
@@ -152,7 +162,7 @@ require(['a'], (a) => {
 
 <br/>
 
-#### __`a.js`__
+#### __`🗂 a.js`__
 
 ```js
 define(() => {
@@ -195,12 +205,48 @@ define(() => {
     return {};
 }));
 ```
+＜br/>
 
+### ⌨️ ES6(ES2015) 방식
+* `import` 와 `export` 구문을 사용하는 방식
+* 하지만 모든 브라우저가 지원하는 것이 아니기 때문에 Babel의 `@babel/plugin-transform-modules-commonjs` 를 통해 변환시켜서 사용한다.
+* 모듈 A, B가 있고 각각을 export 로 내보내는 방식과 그에 따라 어떻게 import 로 불러오는지 살펴보자.
 
+#### __`🗂 moduleA.js`__
+```js
+const A = () => {};
+export default A;
+```
+<br/>
 
+#### __`🗂 moduleB.js`__
+```js
+export const B = () => {};
+```
+<br/>
 
+#### __`🗂 index.js`__
+```js
+import A from 'moduleA';
+import { B } from 'moduleB';
+```
+<br/>
 
+여기서 눈여겨봐야될 것은 `default` 의 유무인데 `export` 를 사용할 때는 __named export__ 와 __default export__ 를 사용할 수 있다.
 
+단, __default export__는 모듈 내에서 한번만 사용할 수 있고 __named export__ 는 여러번 사용할 수 있다는 것이다.
 
+그렇게 __default export__ 로 내보내면 `import` 에선 내보낸 이름 그대로 바로 사용할 수 있지만, __named export__ 로 내보내면 `{}` 로 묶어서 불러와야 한다.
 
+이것이 기본적인 사용법이고 별칭(alias)을 `as` 로 주어서 다른 이름으로 사용할 수도 있고 `*` 와일드카드를 사용하여 한번에 불러오거나 내보낼 수도 있다.
 
+이런 여러가지 변형기법의 사용은 [여기](https://velog.io/@doondoony/JavaScript-Module-System#-es6-modulesesm) 를 참고하자.
+<br/><br/><br/>
+
+***
+## 참고
+* [[JS] 모듈에 대한 이해와 사용법](https://baeharam.netlify.app/posts/javascript/module)
+* [JavaScriptInfo - 모듈 소개](https://ko.javascript.info/modules-intro)
+* [doondoony.log - JavaScript Module System](https://velog.io/@doondoony/JavaScript-Module-System#-es6-modulesesm)
+* [youngDev - [JavaScript] 모듈이란?](https://velog.io/@syoung125/%EA%B0%9C%EB%85%90%EA%B3%B5%EB%B6%80-1.-Javascript)
+* [Mdn web docs - export](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/export)!
