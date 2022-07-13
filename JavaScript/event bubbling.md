@@ -65,7 +65,7 @@
 실제 코드에서 자주　쓰이진 않지만, 종종 유용한 경우가 있으므로 알아보자.
 
 <p align="center">
-  <img src="../img/event-capturing.png">
+  <img src="../img/event-capture.png">
 </p>
 
 이벤트엔 버블링 이외에도 ‘캡처링(capturing)’ 이라는 흐름이 존재한다. 
