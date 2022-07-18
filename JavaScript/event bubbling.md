@@ -144,7 +144,7 @@ elem.addEventListener(..., true)
 ```
   
 <p align="center">
-  <img src="../img/event-catpuring.png">
+  <img src="../img/event-capturing.png">
 </p>
   
 이 예시는 문서 내 요소 '전체’에 핸들러를 할당해서 어떤 핸들러가 동작하는지를 보여준다.
