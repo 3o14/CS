@@ -63,13 +63,17 @@
 
 ### ⌨️ MySQL 친화적인 RDBMS
 
-MySQL에서 Fork된 RDBMS인만큼 MySQL과 친화적이기 때문에 마이그레이션할 때도 손쉽게 진행할 수 있다. 실제로 MySQL에서 사용하고 있는 SQL문이나 명령문들을 그대로 MariaDB에서 채택하고 있는 경우가 많다.
+MySQL에서 Fork된 RDBMS인만큼 MySQL과 친화적이기 때문에 마이그레이션할 때도 손쉽게 진행할 수 있다.
+
+실제로 MySQL에서 사용하고 있는 SQL문이나 명령문들을 그대로 MariaDB에서 채택하고 있는 경우가 많다.
 
 <br/>
 
 ### ⌨️ MySQL 코드 베이스지만 MySQL과는 독립적인 RDBMS
 
-InnoDB와 같이 MySQL RDBMS에서 어떤 플러그인 형태로 끼웠다가 빼서 쓸 수 있는 것이 아닌 그 자체로 독립적인 RDBMS라는 것을 의미한다. 또한 RDBMS에서 Fork 되었지만 이제 MySQL에서 제공하지 않는 독자적인 기능 및 구문을 제공하고 있다.
+InnoDB와 같이 MySQL RDBMS에서 어떤 플러그인 형태로 끼웠다가 빼서 쓸 수 있는 것이 아닌 그 자체로 독립적인 RDBMS라는 것을 의미한다.
+
+또한 RDBMS에서 Fork 되었지만 이제 MySQL에서 제공하지 않는 독자적인 기능 및 구문을 제공하고 있다.
 
 <br/><br/><br/>
 *** 
