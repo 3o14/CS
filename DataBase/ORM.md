@@ -120,6 +120,6 @@ python기반 프레임워크인 Django에서 자체적으로 지원하는 ORM이
 ***
 
 ## 참고
-* [[데이터베이스] ORM이란? (Node.js ORM Lib Sequelize 소개](https://hanamon.kr/orm이란-nodejs-lib-sequelize-소개/
+* [[데이터베이스] ORM이란? (Node.js ORM Lib Sequelize 소개](https://hanamon.kr/orm이란-nodejs-lib-sequelize-소개/)
 * [ORM(Object Relational Mapping)이 뭘까? 🤔](https://geonlee.tistory.com/207)
 * [[DB] ORM이란](https://gmlwjd9405.github.io/2019/02/01/orm.html)
