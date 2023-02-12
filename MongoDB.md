@@ -66,6 +66,12 @@ Primary key를 기반으로 여러 서버에 데이터를 나누는 scale-out이
 
 ### 📍 MapReduce: 맵리듀스 지원
 
+* MapReduce란 
+
+1. map이란 방식으로 원하는 데이터를 추출한 다음에 
+
+2. reduce라는 방법으로 추출한 데이터를 정제하는 것을 말한다.
+
 <br/>
 
 ### 📍 GridFS
