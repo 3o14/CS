@@ -1,4 +1,4 @@
-# ._. MongoDB를 알아보자!
+# ._.) MongoDB를 알아보자!
 ### document 지향 데이터 모델을 사용하는 DB MongoDB
 
 <br/>
