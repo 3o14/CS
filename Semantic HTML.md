@@ -56,7 +56,7 @@
   
 ## 🖥 주요 시맨틱 태그와 용도
 <p align="center">
-<img src="../img/semantic.gif">
+<img src="./img/semantic.gif">
 </p>
   
 ### __1. header__
@@ -67,22 +67,22 @@
   * 일반적으로 heading 태그나 로고 또는 아이콘, 저작권 정보, 검색 양식, 작성자 이름 등을 포함한다.
   
 <p align="center">
-<img src="../img/headerEX1.png">
+<img src="./img/headerEX1.png">
 </p>
   
 <p align="center">
-<img src="../img/headerEX2.png">
+<img src="./img/headerEX2.png">
 </p>
   
 ### __2. nav__
   * 보통 메뉴, 목차 등에 사용된다.
   
   <p align="center">
-<img src="../img/navEX1.png">
+<img src="../mg/navEX1.png">
 </p>
   
   <p align="center">
-<img src="../img/navEX2.png">
+<img src="../mg/navEX2.png">
 </p>
   
 ### __3. aside__
@@ -91,14 +91,14 @@
   * 사이드바 또는 콜아웃 상자로 사용된다.
   
 <p align="center">
-<img src="../img/asideEX1.png">
+<img src="./img/asideEX1.png">
 </p>
   
 ### __4. main__
   * 지배적인 콘텐츠 영역을 나타내는 태그이다. 
   
 <p align="center">
-<img src="../img/mainEX1.png">
+<img src="./img/mainEX1.png">
 </p>
   
 ### __5. section__
@@ -112,7 +112,7 @@
   * 게시물, 잡지 또는 신문 기사, 블로그 작성글, 제품 카드, 사용자가 제출한 댓글, 대화형 위젯 등이 있다.
   
 <p align="center">
-<img src="../img/articleEX1.png">
+<img src="./img/articleEX1.png">
 </p>
   
 ### __7. footer__

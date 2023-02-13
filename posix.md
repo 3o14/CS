@@ -71,7 +71,7 @@ echo는 다음 나오는 문자열을 터미널에 출력하는 명령어이다.
 그렇다면 아래 그림과 같은 동작이 일어난다.
 
 <p align="center">
-<img src="../img/posix1.png">
+<img src="./img/posix1.png">
 </p>
 
 stdin으로 입력을 받아 echo에 넘겨준다.
@@ -91,7 +91,7 @@ echo "foo bar baz" | wc -w
 ```
 
 <p align="center">
-<img src="../img/posix2.png">
+<img src="./img/posix2.png">
 </p>
 
 이렇게 동작한다. `wc`는 문자열의 문자수를 세는 명령어이다.

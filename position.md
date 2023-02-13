@@ -26,7 +26,7 @@
 ```
 
 <p align="center">
-<img src="../../img/static.png">
+<img src="./img/static.png">
 </p>
 <br/><br/>
 
@@ -42,7 +42,7 @@
 * 예를 들어, 두 번째 `<div>` 요소의 `position` 속성을 `relative`로 변경하고, 요소의 원래 위치로 부터 위에서 28px, 왼쪽에서 48px 떨어지도록 `top`과 `left` 속성을 설정하면 아래처럼 된다.
 
 <p align="center">
-<img src="../../img/relative.png">
+<img src="./img/relative.png">
 </p>
 <br/><br/>
   
@@ -92,7 +92,7 @@ div:nth-of-type(2) {
 이제 두 번째 요소가 `<main>` 요소의 우측 하단에 배치된 것을 확인할 수 있다.
   
 <p align="center">
-<img src="../../img/absolute.png">
+<img src="./img/absolute.png">
 </p>
 <br/>
   
@@ -131,7 +131,7 @@ div:nth-of-type(2) {
 이제 두번째 요소가 부모인 `<main>` 요소를 벗어나 브라우저 전체화면 기준으로 우측 하단에 배치되는 것을 볼 수 있다.
   
 <p align="center">
-<img src="../../img/fixed.png">
+<img src="./img/fixed.png">
 </p>
 <br/>
   
@@ -172,7 +172,7 @@ div:nth-of-type(2) {
 
 반면에 `position: static`인 세 번째 요소는 이에 구애받지 않고 화면에 따라 올라가는 것을 볼 수 있다.
 <p align="center">
-<img src="../../img/sticky.png">
+<img src="./img/sticky.png">
 </p>
 <br/><br/><br/>
 

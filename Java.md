@@ -78,7 +78,7 @@
 * Java Virtual Machine 구조
 
 <p align="center">
-<img src="../img/JVM.png">
+<img src="./img/JVM.png">
 </p>
 
 <br/><br/>

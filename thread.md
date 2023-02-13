@@ -10,11 +10,11 @@
 * 이러한 방식을 멀티스레드라고 한다.
 
 <p align="center">
-<img src="../img/thread.png">
+<img src="./img/thread.png">
 </p>
 
 <p align="center">
-<img src="../img/thread2.png">
+<img src="./img/thread2.png">
 </p>
 
 <br/><br/>

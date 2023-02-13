@@ -30,7 +30,7 @@
   ```
 
   <p align="center">
-    <img src="../../img/before float.png">
+    <img src="./img/before float.png">
   </p>
   <br/>
 
@@ -41,7 +41,7 @@
   ```
 
   <p align="center">
-    <img src="../../img/after-float.png">
+    <img src="./img/after-float.png">
   </p>
 <br/><br/>
 
@@ -59,14 +59,14 @@
 * `inherit`: 부모의 속성을 상속 받는다
 
   <p align="center">
-    <img src="../../img/clear.png">
+    <img src="./img/clear.png">
   </p>
 <br/><br/>
 
 ## ._.) 이미지가 박스보다 크면 어떡하지?
   아래처럼 이미지의 크기가 너무 커서, 이미지를 담고 있는 요소의 영역을 벗어나는 경우가 있다.
   <p align="center">
-    <img src="../../img/before-clearfix.png">
+    <img src="./img/before-clearfix.png">
   </p>
   <br/>
   이런 문제를 해결하기 위해 있는게 clearfix 핵이다.
@@ -87,7 +87,7 @@
 ```
 
 <p align="center">
-  <img src="../../img/after-clearfix.png">
+  <img src="./img/after-clearfix.png">
 </p>
 <br/><br/>
 

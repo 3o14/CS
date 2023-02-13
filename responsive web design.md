@@ -14,7 +14,7 @@
 * 데스크탑과 모바일이 단순히 화면 크기만 다른 것이 아니라, 둘을 이용하는 소비자의 태도도 다르다는 점을 인식하고 이를 반영한 디자인
 
 <p align="center">
-<img src="../img/responsibleDesign.png">
+<img src="./img/responsibleDesign.png">
 </p>
 
 ## 🖥 미디어 쿼리란?

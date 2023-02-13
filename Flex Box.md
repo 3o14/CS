@@ -18,13 +18,13 @@
 * inline-flex는 inline-block처럼 동작한다.
 
 <p align="center">
-<img src="../../img/inline-flex.png" width="800px" height="200px">
+<img src="./img/inline-flex.png" width="800px" height="200px">
 </p>
 <br/><br/>
 
 ## 🖥 flexbox의 구성
 <p align="center">
-<img src="../../img/flexBox.png" width="600px" height="330px">
+<img src="./img/flexBox.png" width="600px" height="330px">
 </p>
 
 * flexbox는 flex container(부모 요소)와 flex item(자식 요소)로 구성된다.
@@ -38,7 +38,7 @@
 flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 
 <p align="center">
-<img src="../../img/flexBoxAttribute.png" width="580" height="350px">
+<img src="./img/flexBoxAttribute.png" width="580" height="350px">
 </p>
 
 * flex box는 가로 혹은 세로의 정해둔 방향으로 프로퍼티를 정렬한다.
@@ -53,7 +53,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 : flex container 안의 item들의 방향을 정함
 
 <p align="center">
-<img src="../../img/flex-direction.png">
+<img src="./img/flex-direction.png">
 </p>
 
 * `row(default)` : 왼쪽에서 오른쪽으로 정렬 →
@@ -74,7 +74,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 : flex item이 flex container를 벗어났을 때 줄을 바꾸는 속성
 
 <p align="center">
-<img src="../../img/flex-wrap.png" width="600px" height="500px">
+<img src="./img/flex-wrap.png" width="600px" height="500px">
 </p>
 
 * `nowrap(default)`: 모든 itme을 한 줄에 정렬
@@ -113,7 +113,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 : flex-direction으로 정해진 방향을 기준으로 수평으로 item을 정렬하는 방법을 정함
 
 <p align="center">
-<img src="../../img/justify-content.png" width="600px" height="1000px">
+<img src="./img/justify-content.png" width="600px" height="1000px">
 </p>
 
 * `flex-start(default)`: item을 왼쪽을 시작점으로 정렬
@@ -138,7 +138,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 : flex-direction으로 정해진 방향을 기준으로 수직으로 item을 정렬하는 방법을 정함
 
 <p align="center">
-<img src="../../img/align-items.png">
+<img src="./img/align-items.png">
 </p>
 
 * `lex-start`: item을 위쪽을 시작점으로 정렬
@@ -157,7 +157,7 @@ flex container와 item에서 쓸 수 있는 속성의 종류는 다르다.
 : flex-direction으로 정해진 방향을 기준으로 수직으로 여러 줄인 item을 정렬하는 방법을 정함
 
 <p align="center">
-<img src="../../img/align-content.png">
+<img src="./img/align-content.png">
 </p>
 
 justify-content와 기능이 유사하다.
@@ -174,7 +174,7 @@ justify-content와 기능이 유사하다.
 * flex item의 확장과 관련된 속성, default 0
 
 <p align="center">
-<img src="../../img/flex-grow.png">
+<img src="./img/flex-grow.png">
 </p>
 
 * 해당 flex item이 flex container 내부에서 얼마큼의 공간을 차지해야 하는지 비율을 나타낸다.

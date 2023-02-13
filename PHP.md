@@ -20,7 +20,7 @@
 * Personal Home Page Tools 의 약자에서 PHP:Hypertext Preprocessor 로 의미가 변경됨
 
 <p align="center">
-<img src="../img/php.png">
+<img src="./img/php.png">
 </p>
 
 <br/><br/>
@@ -86,7 +86,7 @@
 <br/>
 
 <p align="center">
-<img src="../img/php working system.png">
+<img src="./img/php working system.png">
 </p>
 
 1.  클라이언트가 웹 브라우저를 통해 웹 서버에 원하는 웹 페이지를 요청한다.

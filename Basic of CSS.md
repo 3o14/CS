@@ -29,7 +29,7 @@
 ## 🖥 CSS ruleset
 
 <p align="center">
-<img src="../img/cssTag.png">
+<img src="./img/cssTag.png">
 </p>
 
 전체 구조는 ‘rule set’이라 불린다. (줄여서 ‘rule’ 이라고도 한다.)
@@ -66,7 +66,7 @@ p,li,h1 {
 
 ## 🖥 선택자(Selector)의 종류
 <p align="center">
-<img src="../img/cssSelector.png">
+<img src="./img/cssSelector.png">
 </p>
 <br/><br/><br/>
 

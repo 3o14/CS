@@ -32,7 +32,7 @@
   * `width`(너비)와 `height`(높이)를 지정해줄 수 있다.
   
   <p align="center">
-  <img src="../../img/BoxModel2.png">
+  <img src="./img/BoxModel2.png">
   </p>
 <br><br>
 

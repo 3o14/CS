@@ -6,7 +6,7 @@
 * Grid layout은 행과 열로 구성된다.
 
 <p align="center">
-<img src="../../img/grid.png">
+<img src="./img/grid.png">
 </p>
 
 * `Grid container` : 전체 Grid layout을 감싸는 역할을 수행한다. `display: grid | inline-grid` 속성을 통해 지정할 수 있다. 
@@ -48,7 +48,7 @@ grid-template-columns: none | <track-list> | <auto-track-list>
 * `grid-template-columns: repeat(3, 100px)`
 
 <p align="center">
-<img src="../../img/grid-template-columns.png">
+<img src="./img/grid-template-columns.png">
 </p>
 
 ### _🖐🏻 잠깐! 여기서 fr이란? - fraction(분수)의 약자_
@@ -65,7 +65,7 @@ grid-template-rows: none | <track-list> | <auto-track-list>
 * 작성 방법은 grid-template-columns와 동일하다.
 
 <p align="center">
-<img src="../../img/grid-template-rows.png">
+<img src="./img/grid-template-rows.png">
 </p>
 <br/>
 
@@ -111,7 +111,7 @@ grid-template-areas: none | <string>
 }
 ```
 <p align="center">
-<img src="../../img/grid-template-areas.png">
+<img src="./img/grid-template-areas.png">
 </p>
 <br/>
 
@@ -126,7 +126,7 @@ grid-gap: <row-gap> <column-gap>?
 * but) 외곽은 여백 지정이 안되기 때문에 padding을 사용하기.
 
 <p align="center">
-<img src="../../img/grid-gap.png">
+<img src="./img/grid-gap.png">
 </p>
 <br/><br/>
 
@@ -145,7 +145,7 @@ grid-column: <grid-line> [/ <grid-line>] ?
 * `grid-column: span 2`으로 설정하면 해당 gird item이 시작되는 열에서 2칸을 더 차지하게 된다.
 
 <p align="center">
-<img src="../../img/grid-column.png">
+<img src="./img/grid-column.png">
 </p>
 <br/>
 
@@ -156,7 +156,7 @@ grid-row: <grid-line> [/ <grid-line>] ?
 * gird-column과 동일하되, 열이 아닌 행에 대하여 작동한다.
 
 <p align="center">
-<img src="../../img/grid-row.png">
+<img src="./img/grid-row.png">
 </p>
 <br/>
 
@@ -172,7 +172,7 @@ grid-area: <grid-line> [/ <grid-line>] ? [/ <grid-line>] ? [/ <grid-line>] ? | <
 * 또한 앞서 보았던 `grid-template-areas` 에서 지정한 영역의 이름으로 지정하면 해당 영역을 차지하게 된다.
 
 <p align="center">
-<img src="../../img/grid-area.png">
+<img src="./img/grid-area.png">
 </p>
 <br/><br/>
 
@@ -218,7 +218,7 @@ grid-area: <grid-line> [/ <grid-line>] ? [/ <grid-line>] ? [/ <grid-line>] ? | <
 ```
 
 <p align="center">
-<img src="../../img/exam.png">
+<img src="./img/exam.png">
 </p>
 <br/><br/>
 

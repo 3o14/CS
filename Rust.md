@@ -13,7 +13,7 @@
 <br/>
 
 <p align="center">
-<img src="../img/Rust.png">
+<img src="./img/Rust.png">
 </p>
 
 <br/>

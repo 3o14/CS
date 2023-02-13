@@ -24,7 +24,7 @@
 * `Terminated`: 프로세스가 완전히 종료된다.
 
 <p align="center">
-<img src="../img/process.png">
+<img src="./img/process.png">
 </p>
 
 <프로세스 상태 전이도>
@@ -46,7 +46,7 @@
 * PCB는 운영체제 내부의 프로세스를 관리하는 코드 부분에 저장되어 있다.
 
 <p align="center">
-<img src="../img/pcb.png">
+<img src="./img/pcb.png">
 </p>
 
 CPU는 한 프로세스가 종료될 때까지 수행하는 것이 아니라 여러 프로세스를 중간 중간에 바꿔가면서 수행한다.
@@ -66,7 +66,7 @@ CPU는 한 프로세스가 종료될 때까지 수행하는 것이 아니라 여
 이러한 순서를 대기하는 곳을 큐(queue)라고 부른다.
 
 <p align="center">
-<img src="../img/queue.png">
+<img src="./img/queue.png">
 </p>
 
 * __Job Queue:__ 하드디스크에 있는 프로그램이 실행되기 위해 메인 메모리의 할당 순서를 기다리는 큐이다.

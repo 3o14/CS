@@ -9,7 +9,7 @@
 * 서버 한 대를 기업에서 단독으로 빌려 쓰거나 구매한 서버의 운영 대행을 맡기는 것을 말한다.
 
 <p align="center">
-<img src="../img/serverHosting.png">
+<img src="./img/serverHosting.png">
 </p>
 
 ### ._.) 서버 호스팅은 단독 주택에 비유할 수 있다.
@@ -28,7 +28,7 @@
 * 서버 호스팅이 서버 전체를 사용하는 것이라면, 웹 호스팅은 서버의 일부분만 빌려 쓰는 형식이다.
 
 <p align="center">
-<img src="../img/waruru.png" width=500px height=300px>
+<img src="./img/waruru.png" width=500px height=300px>
 </p>
 
 ### ._.) 웹 호스팅은 가구 주택(아파트 등)에 전세나 월세로 사는 것과 같다.
@@ -66,7 +66,7 @@
 * 트래픽의 변화에 유동적인 대처가 가능하며 빠른 시간안에 서버를 구축할 수 있는 서비스 ▶️ 클라우드 호스팅
 
 <p align="center">
-<img src="../img/hosting.png">
+<img src="./img/hosting.png">
 </p>
 <br/><br/>
 

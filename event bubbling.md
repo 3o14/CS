@@ -6,7 +6,7 @@
 이벤트 버블링이란 한 요소에 이벤트가 발생하면 이 요소에 할당된 핸들러가 동작하고, 이어서 부모 요소의 핸들러가 동작하고 최상단의 부모 요소를 만날 때까지 반복되면서 핸들러가 동작하는 현상을 말한다.
 
 <p align="center">
-  <img src="../img/event-bubbling.png">
+  <img src="./img/event-bubbling.png">
 </p>
 
 3개의 요소가 `FORM > DIV > P` 형태로 중첩된 구조를 살펴보자.
@@ -30,7 +30,7 @@
 ```
 
 <p align="center">
-  <img src="../img/event-bubbling-result.png">
+  <img src="./img/event-bubbling-result.png">
 </p>
 
 가장 안쪽의 `<p>`를 클릭하면 순서대로 다음과 같은 일이 벌어진다.
@@ -41,7 +41,7 @@
 4. `document` 객체를 만날 때까지, 각 요소에 할당된 `onclick` 핸들러가 동작한다.
 
 <p align="center">
-  <img src="../img/event-bubbling2.png">
+  <img src="./img/event-bubbling2.png">
 </p>
 
 이런 동작 방식 때문에 `<p>` 요소를 클릭하면 `p` → `div` → `form` 순서로 3개의 얼럿 창이 뜨게 된다.
@@ -90,7 +90,7 @@ __이벤트가 발생한 가장 안쪽의 요소는 타깃(target) 요소라고 
 실제 코드에서 자주　쓰이진 않지만, 종종 유용한 경우가 있으므로 알아보자.
 
 <p align="center">
-  <img src="../img/event-capture.png">
+  <img src="./img/event-capture.png">
 </p>
 
 이벤트엔 버블링 이외에도 ‘캡처링(capturing)’ 이라는 흐름이 존재한다. 
@@ -104,7 +104,7 @@ __이벤트가 발생한 가장 안쪽의 요소는 타깃(target) 요소라고 
 테이블 안의 `<td>`를 클릭하면 어떻게 이벤트가 흐르는지 아래 그림을 보고 이해해보자.
 
 <p align="center">
-  <img src="../img/event-ing.png">
+  <img src="./img/event-ing.png">
 </p>
 
 캡처링 단계에서 이벤트를 잡아내려면 addEventListener의 capture 옵션을 true로 설정해야 한다.
@@ -144,7 +144,7 @@ elem.addEventListener(..., true)
 ```
   
 <p align="center">
-  <img src="../img/event-capturing.png">
+  <img src="./img/event-capturing.png">
 </p>
   
 이 예시는 문서 내 요소 '전체’에 핸들러를 할당해서 어떤 핸들러가 동작하는지를 보여준다.

@@ -4,7 +4,7 @@
 ## 🖥 도메인 네임의 기본 구조
 
 <p align="center">
-<img src="../img/domainName.png">
+<img src="./img/domainName.png">
 </p>
 
 * 오른쪽에서 왼쪽으로 읽으며, Root - TLD - SLD - SUB(도메인 이름) 순이다.
@@ -28,7 +28,7 @@
 
 우측부터 Root, TLD, SLD, SUB(도메인 이름)으로 구성되어 있다.
 <p align="center">
-<img src="../img/domainName.png">
+<img src="./img/domainName.png">
 </p>
 
 ### __1. Root__

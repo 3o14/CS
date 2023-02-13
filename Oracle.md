@@ -6,7 +6,7 @@
 ## 🖥 오라클(Oracle)이란?
 
 <p align="center">
-<img src="../img/oracle.png">
+<img src="./img/oracle.png">
 </p>
 
 * 미국 오라클(Oracle) 사의 관계형 데이터베이스 관리 시스템(RDBMS)

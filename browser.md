@@ -16,7 +16,7 @@
 ## 🖥 브라우저의 기본 구조
 
 <p align="center">
-<img src="../img/helloworld-59361-1.png">
+<img src="./img/helloworld-59361-1.png">
 </p>
 
 ### __1. 사용자 인터페이스__
@@ -50,7 +50,7 @@ HTTP 요청 같은 네트워크 호출에 사용된다. 브라우저마다 독�
 
 ### ._.) 렌더링 동작 과정을 살펴봅시다
 <p align="center">
-<img src="../img/rendering.png">
+<img src="./img/rendering.png">
 </p>
 <br/>
 
@@ -61,7 +61,7 @@ HTTP 요청 같은 네트워크 호출에 사용된다. 브라우저마다 독�
 <br/>
 
 <p align="center">
-  <img src="../img/helloworld-59361-3.png">
+  <img src="./img/helloworld-59361-3.png">
 </p>
 
 위 사진은 `webkit`의 동작 방식이다.

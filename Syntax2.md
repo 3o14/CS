@@ -23,7 +23,7 @@
 ```
   
 <p align="center">
-<img src="../img/js1.png">
+<img src="./img/js1.png">
 </p>
 <br/>
   
@@ -50,7 +50,7 @@
 ```
   
 <p align="center">
-<img src="../img/js2.png">
+<img src="./img/js2.png">
 </p> 
 <br/>
 
@@ -80,14 +80,14 @@ window.onload = function(){
 ```
   
 <p align="center">
-<img src="../img/js3.png">
+<img src="./img/js3.png">
 </p> 
 <br/><br/>
   
 ## 🖥 언어 출력
 ### 1. 자바스크립트 데이터 표시 방법
 <p align="center">
-<img src="../img/js4.png">
+<img src="./img/js4.png">
 </p> 
 <br/>
   
@@ -114,7 +114,7 @@ window.onload = function(){
 ```
   
 <p align="center">
-<img src="../img/js5.png">
+<img src="./img/js5.png">
 </p> 
 <br/>
   
@@ -136,7 +136,7 @@ window.onload = function(){
 ```
   
 <p align="center">
-<img src="../img/js5.png">
+<img src="./img/js5.png">
 </p> 
 <br/>
   
@@ -160,7 +160,7 @@ window.onload = function(){
 (window는 적지 않아도 출력됨)
   
 <p align="center">
-<img src="../img/js6.png">
+<img src="./img/js6.png">
 </p> 
 <br/>
   
@@ -181,7 +181,7 @@ window.onload = function(){
 ```
   
 <p align="center">
-<img src="../img/js7.png">
+<img src="./img/js7.png">
 </p> 
 <br/>
 - [F12]를 누르면 나오는 개발자 모드에서 [console]을 클릭하면 결과를 확인할 수 있다.
@@ -190,7 +190,7 @@ window.onload = function(){
 ## 🖥 자바스크립트 기본 용어
 ### 1. 자바스크립트 키워드
 <p align="center">
-<img src="../img/js8.png">
+<img src="./img/js8.png">
 </p> 
 <br/>
   

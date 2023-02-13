@@ -26,7 +26,7 @@
 DNS가 어떻게 동작하는지 살펴보자
 
 <p align="center">
-<img src="../img/DNSLogic.png">
+<img src="./img/DNSLogic.png">
 </p>
 
 1. 웹 브라우저에 www.naver.com을 입력하면 먼저 Local DNS에게 "www.naver.com"이라는 hostname"에 대한 IP 주소를 질의하여 Local DNS에 없으면 다른 DNS name 서버 정보를 받음(__Root DNS__ 정보 전달 받음)

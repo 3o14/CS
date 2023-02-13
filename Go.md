@@ -20,7 +20,7 @@
 - 키워드가 25개로 C(37개), C++ 11(84개)에 비해 간결하다.
 
 <p align="center">
-<img src="../img/keyword.png">
+<img src="./img/keyword.png">
 </p>
 
 - 소스코드 자체를 패키지화
@@ -70,7 +70,7 @@ Go 언어는 소스에 기술된 패키지 단위로 관리되며 Go 소스로 �
 그 외에도 Go 소스 파일의 형식을 맞춰주는 포맷팅(fmt), 사용되는 패키지 리스트업(list), 테스트 코드 수행 등 Go 언어로 패키지를 작성 및 사용하기 위한 여러 가지 기능을 제공하고 있다.
 
 <p align="center">
-<img src="../img/goCommand.png">
+<img src="./img/goCommand.png">
 </p>
 
 <br/><br/>

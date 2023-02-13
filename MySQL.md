@@ -64,13 +64,13 @@ MySQL이 가지는 장점은 다음과 같다.
 #### 1. Scale-Up : 서버에 CPU와 Memory 추가
 
 <p align="center">
-<img src="../img/Scale-up.png">
+<img src="./img/Scale-up.png">
 </p>
 
 #### 2. Scale-Out : Master-Slave로 구성
 
 <p align="center">
-<img src="../img/Scale-out.png">
+<img src="./img/Scale-out.png">
 </p>
 
 서버 한대로 돌리는 걸 서버숫자를 늘려서 사용한다.
